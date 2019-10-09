@@ -12,7 +12,8 @@ p {
   background-image: url("http://murphyshawaii.com/media/2014/04/murphys-front.jpg");
 
   /* Set a specific height */
-  min-height: 554px;
+  min-height: 560px;
+  padding-top: 79px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -26,7 +27,8 @@ p {
   background-image: url("http://murphyshawaii.com/media/2014/04/Lunch-IMG_5529.jpg");
 
   /* Set a specific height */
-  min-height: 600px;
+  min-height: 560px;
+  padding-top: 79px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
