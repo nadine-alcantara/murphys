@@ -1,6 +1,38 @@
+body {
+  margin-top: 79px;
+}
+
 p {
   font-size: 18px;
   line-height: 1.7em;
+}
+
+.parallax-1 {
+  /* The image used */
+  background-image: url("http://murphyshawaii.com/media/2014/04/murphys-front.jpg");
+
+  /* Set a specific height */
+  min-height: 554px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-2 {
+  /* The image used */
+  background-image: url("http://murphyshawaii.com/media/2014/04/Lunch-IMG_5529.jpg");
+
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .ui.borderless.topmenu {
@@ -9,13 +41,8 @@ p {
   height: 79px;
 }
 
-.site-background {
-  background-image: url("http://murphyshawaii.com/media/2014/04/murphys-front.jpg");
-  height: 500px;
-  color: white;
-}
 .footer-background {
-  background-color: #004030;
+  background-color: #1f1f1f;
   padding: 0 200px;
   height: 125px;
   color: white;
