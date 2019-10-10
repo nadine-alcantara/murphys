@@ -37,6 +37,10 @@ p {
   background-size: cover;
 }
 
+.parallax-2 .column {
+  color: white;
+}
+
 .ui.borderless.topmenu {
   box-shadow: none;
   border: none;
@@ -45,8 +49,7 @@ p {
 
 .footer-background {
   background-color: #1f1f1f;
-  padding: 0 200px;
-  height: 125px;
+  height: 53px;
   color: white;
 }
 
