@@ -1,5 +1,6 @@
 body {
   margin-top: 79px;
+  font-family: "Open Sans"; !important;
 }
 
 p {
@@ -41,10 +42,19 @@ p {
   color: white;
 }
 
-.ui.borderless.topmenu {
+.ui.topmenu {
   box-shadow: none;
   border: none;
   height: 79px;
+}
+
+.ui.topmenu.container.menu .item{
+  color: #666666;
+}
+
+.ui.topmenu.container.menu .item:hover {
+  background-color: white;
+  color: black;
 }
 
 .footer-background {
@@ -53,3 +63,7 @@ p {
   color: white;
 }
 
+#middle {
+  height: 300px;
+  background-color: white;
+}

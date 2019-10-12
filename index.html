@@ -5,6 +5,8 @@
   <title>Title</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 </head>
@@ -57,24 +59,28 @@
   </div>
 </div>
 
-<div style="height: 100px; background-color: white;">
-
+<div id="middle">
+  <div class="ui container" style="padding-top: 80px">
+    <a href=""><i class="big blue square facebook f icon"></i></a>
+    <a href=""><i class="big pink instagram icon"></i></a>
+    <a href=""><i class="big teal square twitter icon"></i></a>
+  </div>
 </div>
 
 <div class="parallax-2">
-  <div class="ui three column center aligned grid">
-    <div class="middle aligned row">
+  <div class="ui two column center aligned grid">
+    <div class="row">
       <div class="column">
         <h2>Lunch</h2>
         <p>Monday – Friday: 11:00am – 2:30pm <br>
           Saturday – Sunday: Not open for lunch</p>
-        <button class="ui inverted basic button">View Lunch Menu</button>
+        <button class="ui large inverted basic button">View Lunch Menu</button>
       </div>
       <div class="column">
         <h2>Dinner</h2>
         <p>Monday – Saturday: 5:30pm – 10:00pm <br>
           Sunday: 5:00pm – 9:00pm</p>
-        <button class="ui inverted basic button">View Dinner Menu</button>
+        <button class="ui large inverted basic button">View Evening Menu</button>
       </div>
     </div>
     <div class="middle aligned row">
@@ -82,7 +88,7 @@
         <h2>Bar</h2>
         <p>Monday- Friday from 11:00am <br>
           Saturday- Sunday from 4:00pm</p>
-        <button class="ui inverted basic button">View Bar Menu</button>
+        <button class="ui large inverted basic button">View Bar Menu</button>
       </div>
     </div>
   </div>
@@ -121,7 +127,7 @@
 
 <script>
   $('.ui.dropdown')
-      .dropdown()
+      .dropdown({on: 'hover'})
   ;
 </script>
 </body>
