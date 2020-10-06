@@ -10,7 +10,7 @@ p {
 
 .parallax-1 {
   /* The image used */
-  background-image: url("http://murphyshawaii.com/media/2014/04/murphys-front.jpg");
+  background-image: url(images/murphys-front.jpg);
 
   /* Set a specific height */
   min-height: 560px;
@@ -25,7 +25,7 @@ p {
 
 .parallax-2 {
   /* The image used */
-  background-image: url("http://murphyshawaii.com/media/2014/04/Lunch-IMG_5529.jpg");
+  background-image: url(images/Lunch-IMG_5529.jpg);
 
   /* Set a specific height */
   min-height: 560px;
